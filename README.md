@@ -12,4 +12,4 @@ New, turing complete version of Tlang (not TlanG, they are entirely different), 
   to debug-run
 
 
-(look at tudbut/TlangV2-Utils for some pre-made functions)
+(look at [/tudbut/TlangV2-Utils] for some pre-made functions)
