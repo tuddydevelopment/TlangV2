@@ -13,3 +13,5 @@ New, turing complete version of Tlang (not TlanG, they are entirely different), 
 
 
 (look at [tudbut/TlangV2-Utils](https://github.com/tudbut/TlangV2-Utils) for some pre-made functions)
+
+To run the demos, download the compiler and the runner, then compile the program, it is not pre-compiled.
