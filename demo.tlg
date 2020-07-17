@@ -2,7 +2,7 @@
 set int 0
 
 
-// PrintLine
+// PrintLine function
 def fun pl
   output
   set str \n
