@@ -1,5 +1,7 @@
 # TlangV2
-New, turing complete version of Tlang (not TlanG, they are entirely different), which is quite similar to assembly
+New, turing complete version of Tlang (not TlanG, they are entirely different), which is quite similar to assembly.
+
+Every variable and function is, once defined, globally accessible, this is a static language, there are no objects. I made this language quite similar to assembly, but a little easier and better to understand (functions and variables). This is also why a lot of functions dont require arguments and read from the global buffers. (main, a and b)
 
 
 `java -jar TlangC.jar <file> <[enableDebugCompilation]>`
