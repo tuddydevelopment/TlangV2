@@ -1,0 +1,15 @@
+// initializing buffer (for making functions work)
+set int 0
+
+
+// PrintLine
+def fun pl
+  output
+  set str \n
+  output
+return
+
+// Main program
+
+set str Hello World!
+fun pl
