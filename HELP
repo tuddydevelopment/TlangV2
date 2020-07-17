@@ -30,4 +30,4 @@ ld              0xE2    2       1           LoaD to variable from main register
 jmp             0xE3    2       1           JuMP bytes // negative numbers go back, positive numbers forward
 ifj c           0xE4    2       1           IF register a is equal to register b, Jump bytes // negative numbers go back, positive numbers forward
 ifj b           0xE5    2       1           IF main register is true, Jump bytes // negative numbers go back, positive numbers forward
-fun             0xE6    1       1           jumps to a FUNction and adds to stack track
+fun             0xE6    1       1           jumps to a FUNction and adds to stack
