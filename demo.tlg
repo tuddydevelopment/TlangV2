@@ -1,0 +1,32 @@
+// initializing buffer (for making functions work)
+set int 0
+
+
+// PrintLine
+def fun pl
+  output
+  set str \n
+  output
+return
+
+// Main program
+
+set str Please input your name: ;
+output
+
+def str name -
+input
+ld name
+
+set str Your name is ;
+output
+st name
+output
+set str .
+fun pl
+
+
+// Output:
+// Please input your name: <asking for input, i write "TudbuT">
+// Your name is TudbuT.
+//
