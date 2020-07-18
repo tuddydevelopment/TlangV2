@@ -24,3 +24,5 @@ To run the demos, download the compiler and the runner, then compile the program
 ## IMPORTANT:
   
 > When working with functions, you should first initialize the main buffer, so no commands inside of functions will throw compilation errors!
+
+> There may still be errors in the compiler, report them by opening an issue - BUT 99% of the time, it will be a problem with the code! Please first try to debug it!!
