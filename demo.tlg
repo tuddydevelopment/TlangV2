@@ -1,4 +1,4 @@
-// initializing buffer (for making functions work)
+// initializing main buffer (for making functions work, otherwise there MAY be compilation problems, because some commands read from the buffer!)
 set int 0
 
 
