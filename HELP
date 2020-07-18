@@ -2,10 +2,10 @@ CMD             BYTE    TAKES   ARG_COUNT   DESCRIPTION
 
 
 def             0x10    ERR
-def int         0x11    3       2           DEFine a INTeger variable
-def boo         0x12    3       2           DEFine a BOOlean variable
-def str         0x13    4 - INF 2 - INF     DEFine a STRing variable
-def fun         0x15    3       1           DEFine a FUNction
+def int         0x11    4       2           DEFine a INTeger variable
+def boo         0x12    4       2           DEFine a BOOlean variable
+def str         0x13    5 - INF 2 - INF     DEFine a STRing variable
+def fun         0x15    5 - INF 1           DEFine a FUNction
 
 set             0x20    ERR
 set int         0x21    2       1           SET main register to an INTeger
@@ -15,19 +15,19 @@ set str         0x23    3 - INF 1 - INF     SET main register to a STRing
 add             0x31    1       0           ADD register A to register B and write result to main register
 sub             0x32    1       0           SUBtract register B from register A and write result to main register
 
-sta             0x81    2       1           STore a variable to register A
-lda             0x82    2       1           LoaD to variable from register A
+sta             0x81    3       1           STore a variable to register A
+lda             0x82    3       1           LoaD to variable from register A
 
-stb             0x91    2       1           STore a variable to register A
-ldb             0x92    2       1           LoaD to variable from register A
+stb             0x91    3       1           STore a variable to register A
+ldb             0x92    3       1           LoaD to variable from register A
 
 output          0xA1    1       0           OUTPUT string contents of main register to console
 input           0xA2    1       0           OUTPUT from console and write to main register
 
 pause           0xE0    1       0           PAUSE for one byte and go to the next one // Useful for getting better byte numbers
-st              0xE1    2       1           STore a variable to main register
-ld              0xE2    2       1           LoaD to variable from main register
+st              0xE1    3       1           STore a variable to main register
+ld              0xE2    3       1           LoaD to variable from main register
 jmp             0xE3    2       1           JuMP bytes // negative numbers go back, positive numbers forward
 ifj c           0xE4    2       1           IF register a is equal to register b, Jump bytes // negative numbers go back, positive numbers forward
 ifj b           0xE5    2       1           IF main register is true, Jump bytes // negative numbers go back, positive numbers forward
-fun             0xE6    1       1           jumps to a FUNction and adds to stack
+fun             0xE6    3       1           jumps to a FUNction and adds to stack track
